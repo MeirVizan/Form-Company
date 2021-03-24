@@ -1,38 +1,89 @@
-.App {
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+  margin: 0;
+  height: 100%;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+*{box-sizing: border-box;}
+
+
+.App{
   text-align: center;
+  transition: 1s;
+
+}
+.App.success{
+  transform: translateY(-100vh);
+}
+.popup{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box {
+  border: 1px solid #41ad49;
+  border-radius: 20px;
+  padding: 15px;
+  width: 300px;
+  background: #c7ffcb;
+  box-shadow: 0 0 11px #c7ffcb;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.box  p{
+  color: #1e7725;
+}
+.box img {
+  width: 120px;
+}
+.box h2 {
+  color: #41ad49;
+}
+.row{
+  display: flex;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
+#accept{
+  margin: 0;
+  margin-right: 5px;
+  width: unset;
+  
+}
+.App-header > h3{
+  color: black;
+  text-decoration: underline;
+}
+.select-lng {
+  top: 15px;
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+}
+
+.select-lng select{
+  border-radius: 5px;
+    padding: 4px;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #3f51b5;
+    color: white;
+}
+.App-header{
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.center-step{
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

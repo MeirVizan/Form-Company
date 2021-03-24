@@ -1,0 +1,51 @@
+.btn-next-back Button{
+    margin: 10px;
+}
+
+
+.wapper{
+
+    
+    max-width: 250px;
+    margin:auto
+} 
+
+input{
+    background-color: transparent;
+    border : 1px solid #ccc;
+    border-radius: 5px;
+    color: #555;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    width: 100%;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-width: 2px;
+    border-color: #3f51b5;
+}
+
+.text-input {
+    margin-bottom: 15px;
+}
+
+
+.text-input > select{
+    border-radius: 5px;
+    padding: 4px;
+    width: 100%;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.text-input > p{
+    font-size: 15px;
+    color: red;
+}

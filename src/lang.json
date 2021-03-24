@@ -1,0 +1,48 @@
+{
+        "en":{
+            "title":"Form Company",
+            "firstName":"First name",
+            "lastName":"Last name",
+            "titleForm":"Title",
+           
+            "city":"City",
+            "street":"Street",
+            "email":"Email",
+            "phone":"Phone number",
+            
+            "errorFirst":"First name required",
+            "errorLast":"Last name required",
+
+            "invalidPhone":"Invalid phone number",
+            "invalideEmail":"Invalide Email",
+            "errorPhone":"Phone number required",
+            "errorEmail":"Email required",
+
+            "next":"NEXT",
+            "back":"BACK",
+            "submit":"submit"
+        },
+        "fr":{
+            "title":"Entreprise de forme",
+            "firstName":"Prénom",
+            "lastName":"Nom de famille",
+            "titleForm":"Titre",
+
+            "city":"ville",
+            "street":"rue",
+            "email":"E-mail",
+            "phone":"téléphone",
+
+            "errorFirst":"Prénom requis",
+            "errorLast":"nom de famille requis",
+
+            "invalidPhone":"Numéro de téléphone invalide",
+            "invalideEmail":"email invalide",
+            "errorPhone":"numéro de téléphone requis",
+            "errorEmail":"Email (requis)",
+
+            "next":"Suivant",
+            "back":"Retour",
+            "submit":"submit"
+        }  
+}
